@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# EchoChamber - 커뮤니티 관리 시뮬레이션 게임
 
-## Getting Started
+## 게임 소개
 
-First, run the development server:
+EchoChamber는 커뮤니티 관리자가 되어 게시글을 검토하고, 자유와 질서 사이의 균형을 유지하는 시뮬레이션 게임입니다.
+
+## 기술 스택
+
+- **프론트엔드**: Next.js 15, React, TypeScript, Tailwind CSS, shadcn/ui
+- **백엔드**: Next.js API Routes
+- **데이터 저장**: JSON 파일 기반
+
+## 실행 방법
 
 ```bash
+# 의존성 설치
+npm install
+
+# 개발 서버 실행
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+브라우저에서 http://localhost:3000 을 열어 게임을 플레이할 수 있습니다.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 게임 방법
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. 총 30턴의 게시글을 검토합니다.
+2. 각 게시글마다 **통과**, **경고**, **삭제** 중 하나를 선택합니다.
+3. 선택에 따라 4가지 지표가 변화합니다:
+   - **자유도(Freedom)**: 표현의 자유 수준
+   - **질서도(Order)**: 커뮤니티의 질서 수준
+   - **신뢰도(Trust)**: 사용자들의 신뢰 수준
+   - **다양성(Diversity)**: 의견의 다양성 수준
+4. 하나의 지표가 0이 되면 즉시 해당 엔딩으로 게임이 종료됩니다.
+5. 30턴을 모두 처리하고 모든 지표가 0이 아니면 트루엔딩이 됩니다.
 
-## Learn More
+## API 엔드포인트
 
-To learn more about Next.js, take a look at the following resources:
+- `GET /api/game-state` - 현재 게임 상태 조회
+- `POST /api/game-state` - 게임 상태 업데이트
+- `GET /api/posts` - 게시글 목록 조회
+- `POST /api/action` - 게시글에 대한 액션 처리 (통과/경고/삭제)
+- `POST /api/reset` - 게임 리셋
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 데이터 파일
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `data/posts.json` - 게시글 데이터
+- `data/game-state.json` - 게임 상태 데이터
 
-## Deploy on Vercel
+## 엔딩 종류 (총 5개)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **트루엔딩**: 30턴을 모두 처리하고 모든 지표가 0이 아닌 상태로 완료
+   - 이상적인 커뮤니티의 균형을 이루었습니다.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. **무정부**: 자유도가 0이 된 경우
+   - 자유가 완전히 사라져 무정부 상태가 되었습니다.
+
+3. **질서 붕괴**: 질서도가 0이 된 경우
+   - 질서가 완전히 무너져 커뮤니티가 혼란에 빠졌습니다.
+
+4. **신뢰 상실**: 신뢰도가 0이 된 경우
+   - 사용자들의 신뢰가 완전히 사라졌습니다.
+
+5. **다양성 소멸**: 다양성이 0이 된 경우
+   - 모든 목소리가 같아져 커뮤니티가 메아리실(Echo Chamber)이 되었습니다.
+
+**참고**: 지표가 100%에 도달해도 게임이 끝나지 않습니다. 오직 0이 될 때만 게임이 종료됩니다.

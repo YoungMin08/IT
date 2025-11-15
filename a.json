@@ -1,0 +1,812 @@
+[
+  {
+    "id": 1,
+    "type": "허위정보",
+    "title": "충격! 다음주부터 모든 대학교 무료입니다",
+    "content": "정부가 다음주부터 모든 대학교 등록금을 무료로 전환한다고 발표했습니다. 모든 학생들이 축하하고 있습니다.",
+    "author": "익명사용자123",
+    "freedomImpact": [
+      -5,
+      -2,
+      -8
+    ],
+    "orderImpact": [
+      10,
+      5,
+      12
+    ],
+    "trustImpact": [
+      7,
+      4,
+      -6
+    ],
+    "diversityImpact": [
+      -3,
+      -2,
+      3
+    ]
+  },
+  {
+    "id": 2,
+    "type": "선동",
+    "title": "우리는 단결해야 합니다! 지금 바로 행동하세요",
+    "content": "현재 시스템에 문제가 있습니다. 모두가 함께 행동한다면 바꿀 수 있습니다. 지금 바로 행동하세요!",
+    "author": "행동파_001",
+    "freedomImpact": [
+      -8,
+      -4,
+      -12
+    ],
+    "orderImpact": [
+      12,
+      6,
+      14
+    ],
+    "trustImpact": [
+      8,
+      4,
+      -6
+    ],
+    "diversityImpact": [
+      -5,
+      -2,
+      5
+    ]
+  },
+  {
+    "id": 3,
+    "type": "비판",
+    "title": "현재 정책에 대한 건설적인 비판",
+    "content": "현재 정책이 좋은 의도를 가지고 있지만, 실행 과정에서 몇 가지 개선점이 있습니다. 구체적으로는...",
+    "author": "건설적비판가",
+    "freedomImpact": [
+      5,
+      2,
+      -8
+    ],
+    "orderImpact": [
+      2,
+      1,
+      2
+    ],
+    "trustImpact": [
+      1,
+      0,
+      -1
+    ],
+    "diversityImpact": [
+      3,
+      2,
+      -2
+    ]
+  },
+  {
+    "id": 4,
+    "type": "논쟁",
+    "title": "A vs B: 당신의 의견은?",
+    "content": "A가 옳다고 생각하는 사람과 B가 옳다고 생각하는 사람이 있습니다. 여러분은 어떻게 생각하시나요?",
+    "author": "토론장운영자",
+    "freedomImpact": [
+      3,
+      2,
+      -4
+    ],
+    "orderImpact": [
+      -3,
+      -2,
+      4
+    ],
+    "trustImpact": [
+      -2,
+      -1,
+      2
+    ],
+    "diversityImpact": [
+      2,
+      1,
+      -2
+    ]
+  },
+  {
+    "id": 5,
+    "type": "유익한글",
+    "title": "유용한 정보: 건강한 커뮤니티 운영법",
+    "content": "건강한 커뮤니티를 위한 여러 팁을 정리했습니다. 서로를 존중하고 건설적인 대화를 나누는 것이 중요합니다.",
+    "author": "커뮤니티매니저",
+    "freedomImpact": [
+      8,
+      4,
+      -12
+    ],
+    "orderImpact": [
+      5,
+      2,
+      6
+    ],
+    "trustImpact": [
+      4,
+      2,
+      -3
+    ],
+    "diversityImpact": [
+      5,
+      2,
+      -4
+    ]
+  },
+  {
+    "id": 6,
+    "type": "허위정보",
+    "title": "새로운 법률이 내일부터 시행됩니다",
+    "content": "정부가 새로운 법률을 통과시켰고, 내일부터 즉시 시행한다고 합니다. 모든 사람이 준수해야 합니다.",
+    "author": "정보통123",
+    "freedomImpact": [
+      -6,
+      -3,
+      -9
+    ],
+    "orderImpact": [
+      11,
+      6,
+      13
+    ],
+    "trustImpact": [
+      8,
+      4,
+      -6
+    ],
+    "diversityImpact": [
+      -4,
+      -2,
+      4
+    ]
+  },
+  {
+    "id": 7,
+    "type": "선동",
+    "title": "우리를 막을 수 없습니다!",
+    "content": "그들은 우리를 막으려 하지만 우리는 강합니다. 모두 단결해서 이겨내겠습니다!",
+    "author": "단결캠페인",
+    "freedomImpact": [
+      -10,
+      -5,
+      -15
+    ],
+    "orderImpact": [
+      15,
+      8,
+      18
+    ],
+    "trustImpact": [
+      10,
+      5,
+      -8
+    ],
+    "diversityImpact": [
+      -6,
+      -3,
+      6
+    ]
+  },
+  {
+    "id": 8,
+    "type": "비판",
+    "title": "시스템 개선 제안서",
+    "content": "현재 시스템을 분석한 결과, 다음과 같은 개선점이 있습니다. 모두의 의견을 기다립니다.",
+    "author": "시스템연구원",
+    "freedomImpact": [
+      6,
+      3,
+      -9
+    ],
+    "orderImpact": [
+      1,
+      0,
+      1
+    ],
+    "trustImpact": [
+      1,
+      0,
+      -1
+    ],
+    "diversityImpact": [
+      4,
+      2,
+      -3
+    ]
+  },
+  {
+    "id": 9,
+    "type": "논쟁",
+    "title": "열띤 토론: X vs Y",
+    "content": "X와 Y 중 어느 것이 더 나은지에 대한 논쟁이 벌어지고 있습니다. 여러분의 생각은?",
+    "author": "토론모 Moderator",
+    "freedomImpact": [
+      4,
+      2,
+      -6
+    ],
+    "orderImpact": [
+      -2,
+      -1,
+      2
+    ],
+    "trustImpact": [
+      -1,
+      0,
+      1
+    ],
+    "diversityImpact": [
+      2,
+      1,
+      -2
+    ]
+  },
+  {
+    "id": 10,
+    "type": "유익한글",
+    "title": "팩트 체크: 오늘의 뉴스 정리",
+    "content": "오늘 하루 주요 뉴스를 정리하고 팩트 체크를 진행했습니다. 신뢰할 수 있는 정보만 담았습니다.",
+    "author": "팩트체커",
+    "freedomImpact": [
+      7,
+      4,
+      -10
+    ],
+    "orderImpact": [
+      4,
+      2,
+      5
+    ],
+    "trustImpact": [
+      3,
+      2,
+      -2
+    ],
+    "diversityImpact": [
+      4,
+      2,
+      -3
+    ]
+  },
+  {
+    "id": 11,
+    "type": "허위정보",
+    "title": "공식 발표: 모든 사람이 무료로 받을 수 있는 혜택",
+    "content": "정부가 모든 국민에게 무료로 제공할 수 있는 혜택을 발표했습니다. 아무런 조건 없이 받을 수 있습니다.",
+    "author": "행운아",
+    "freedomImpact": [
+      -7,
+      -4,
+      -10
+    ],
+    "orderImpact": [
+      13,
+      6,
+      16
+    ],
+    "trustImpact": [
+      9,
+      4,
+      -7
+    ],
+    "diversityImpact": [
+      -4,
+      -2,
+      4
+    ]
+  },
+  {
+    "id": 12,
+    "type": "선동",
+    "title": "지금이 기회입니다! 행동하세요!",
+    "content": "지금 바로 행동하지 않으면 후회할 것입니다. 우리의 목소리를 높여야 합니다!",
+    "author": "행동주의자",
+    "freedomImpact": [
+      -9,
+      -4,
+      -14
+    ],
+    "orderImpact": [
+      14,
+      7,
+      17
+    ],
+    "trustImpact": [
+      10,
+      5,
+      -8
+    ],
+    "diversityImpact": [
+      -5,
+      -2,
+      5
+    ]
+  },
+  {
+    "id": 13,
+    "type": "비판",
+    "title": "현재 상황에 대한 객관적 분석",
+    "content": "감정에 치우치지 않고 현재 상황을 객관적으로 분석했습니다. 여러 관점에서 살펴보겠습니다.",
+    "author": "객관적분석가",
+    "freedomImpact": [
+      5,
+      2,
+      -8
+    ],
+    "orderImpact": [
+      2,
+      1,
+      2
+    ],
+    "trustImpact": [
+      1,
+      0,
+      -1
+    ],
+    "diversityImpact": [
+      3,
+      2,
+      -2
+    ]
+  },
+  {
+    "id": 14,
+    "type": "논쟁",
+    "title": "이것도 논쟁이 되나요?",
+    "content": "어떤 주제에 대해 의견이 나뉘고 있습니다. 건설적인 토론이 이루어지기를 기대합니다.",
+    "author": "토론애호가",
+    "freedomImpact": [
+      3,
+      2,
+      -4
+    ],
+    "orderImpact": [
+      -1,
+      0,
+      1
+    ],
+    "trustImpact": [
+      -1,
+      0,
+      1
+    ],
+    "diversityImpact": [
+      2,
+      1,
+      -2
+    ]
+  },
+  {
+    "id": 15,
+    "type": "유익한글",
+    "title": "커뮤니티 가이드라인 안내",
+    "content": "모두가 즐겁게 이용할 수 있는 커뮤니티를 만들기 위한 가이드라인입니다. 함께 지켜주세요.",
+    "author": "운영팀",
+    "freedomImpact": [
+      8,
+      4,
+      -12
+    ],
+    "orderImpact": [
+      6,
+      3,
+      7
+    ],
+    "trustImpact": [
+      4,
+      2,
+      -3
+    ],
+    "diversityImpact": [
+      5,
+      2,
+      -4
+    ]
+  },
+  {
+    "id": 16,
+    "type": "허위정보",
+    "title": "긴급 속보: 모든 소셜미디어 폐쇄 예정",
+    "content": "내일부터 모든 소셜미디어 플랫폼이 영구 폐쇄된다고 발표되었습니다. 지금이라도 마지막 인사를 나누세요.",
+    "author": "속보전문가",
+    "freedomImpact": [
+      -4,
+      -2,
+      -6
+    ],
+    "orderImpact": [
+      9,
+      4,
+      11
+    ],
+    "trustImpact": [
+      6,
+      3,
+      -5
+    ],
+    "diversityImpact": [
+      -2,
+      -1,
+      2
+    ]
+  },
+  {
+    "id": 17,
+    "type": "선동",
+    "title": "이번이 마지막 기회입니다! 단결하세요!",
+    "content": "더 이상 기다릴 수 없습니다. 지금이 역사적 순간입니다. 모두 함께 행동해야 합니다!",
+    "author": "혁명가2024",
+    "freedomImpact": [
+      -7,
+      -4,
+      -10
+    ],
+    "orderImpact": [
+      13,
+      6,
+      16
+    ],
+    "trustImpact": [
+      9,
+      4,
+      -7
+    ],
+    "diversityImpact": [
+      -4,
+      -2,
+      4
+    ]
+  },
+  {
+    "id": 18,
+    "type": "비판",
+    "title": "현행 제도의 문제점과 개선 방안",
+    "content": "현재 제도에는 여러 문제점이 있습니다. 다음과 같은 개선 방안을 제안합니다. 여러분의 의견은 어떠신가요?",
+    "author": "정책연구소",
+    "freedomImpact": [
+      6,
+      3,
+      -9
+    ],
+    "orderImpact": [
+      3,
+      2,
+      4
+    ],
+    "trustImpact": [
+      2,
+      1,
+      -2
+    ],
+    "diversityImpact": [
+      4,
+      2,
+      -3
+    ]
+  },
+  {
+    "id": 19,
+    "type": "논쟁",
+    "title": "핫이슈: 자유 vs 안전, 당신의 선택은?",
+    "content": "자유와 안전 중 어느 것이 더 중요한가요? 이 주제에 대해 커뮤니티가 뜨겁게 논의하고 있습니다.",
+    "author": "논쟁장Mod",
+    "freedomImpact": [
+      5,
+      2,
+      -8
+    ],
+    "orderImpact": [
+      -4,
+      -2,
+      5
+    ],
+    "trustImpact": [
+      -3,
+      -2,
+      3
+    ],
+    "diversityImpact": [
+      3,
+      2,
+      -2
+    ]
+  },
+  {
+    "id": 20,
+    "type": "유익한글",
+    "title": "건강한 토론을 위한 에티켓 가이드",
+    "content": "서로 다른 의견을 가진 사람들도 존중하며 대화할 수 있는 방법을 정리했습니다. 함께 읽어보세요.",
+    "author": "에티켓마스터",
+    "freedomImpact": [
+      9,
+      4,
+      -14
+    ],
+    "orderImpact": [
+      7,
+      4,
+      8
+    ],
+    "trustImpact": [
+      5,
+      2,
+      -4
+    ],
+    "diversityImpact": [
+      5,
+      2,
+      -4
+    ]
+  },
+  {
+    "id": 21,
+    "type": "허위정보",
+    "title": "확정: 내일부터 인터넷 무료화",
+    "content": "정부가 모든 인터넷 요금을 무료로 전환한다고 공식 발표했습니다. 축하합니다!",
+    "author": "뉴스헌터",
+    "freedomImpact": [
+      -5,
+      -2,
+      -8
+    ],
+    "orderImpact": [
+      10,
+      5,
+      12
+    ],
+    "trustImpact": [
+      7,
+      4,
+      -6
+    ],
+    "diversityImpact": [
+      -3,
+      -2,
+      3
+    ]
+  },
+  {
+    "id": 22,
+    "type": "선동",
+    "title": "침묵하지 마세요! 목소리를 내세요!",
+    "content": "우리의 침묵이 권력의 방패가 되고 있습니다. 이제는 행동할 때입니다. 목소리를 모읍시다!",
+    "author": "목소리모음",
+    "freedomImpact": [
+      -6,
+      -3,
+      -9
+    ],
+    "orderImpact": [
+      11,
+      6,
+      13
+    ],
+    "trustImpact": [
+      8,
+      4,
+      -6
+    ],
+    "diversityImpact": [
+      -4,
+      -2,
+      4
+    ]
+  },
+  {
+    "id": 23,
+    "type": "비판",
+    "title": "현재 시스템의 논리적 오류 분석",
+    "content": "현재 시스템을 철학적 관점에서 분석한 결과, 다음과 같은 논리적 오류가 발견되었습니다.",
+    "author": "철학자님",
+    "freedomImpact": [
+      7,
+      4,
+      -10
+    ],
+    "orderImpact": [
+      2,
+      1,
+      2
+    ],
+    "trustImpact": [
+      1,
+      0,
+      -1
+    ],
+    "diversityImpact": [
+      4,
+      2,
+      -3
+    ]
+  },
+  {
+    "id": 24,
+    "type": "논쟁",
+    "title": "과거 vs 미래: 어디에 초점을 맞춰야 할까?",
+    "content": "과거의 전통을 지키는 것이 옳은가요, 아니면 미래를 향해 나아가는 것이 옳은가요?",
+    "author": "시대의목소리",
+    "freedomImpact": [
+      4,
+      2,
+      -6
+    ],
+    "orderImpact": [
+      -3,
+      -2,
+      4
+    ],
+    "trustImpact": [
+      -2,
+      -1,
+      2
+    ],
+    "diversityImpact": [
+      2,
+      1,
+      -2
+    ]
+  },
+  {
+    "id": 25,
+    "type": "유익한글",
+    "title": "팩트체킹 방법론: 어떻게 검증할까?",
+    "content": "정보의 진실성을 확인하는 방법을 단계별로 정리했습니다. 누구나 쉽게 따라할 수 있습니다.",
+    "author": "팩트마스터",
+    "freedomImpact": [
+      8,
+      4,
+      -12
+    ],
+    "orderImpact": [
+      5,
+      2,
+      6
+    ],
+    "trustImpact": [
+      4,
+      2,
+      -3
+    ],
+    "diversityImpact": [
+      5,
+      2,
+      -4
+    ]
+  },
+  {
+    "id": 26,
+    "type": "허위정보",
+    "title": "긴급: 모든 웹사이트 내일 폐쇄",
+    "content": "정부 명령으로 내일부터 모든 웹사이트가 접속 불가가 됩니다. 서둘러 정보를 저장하세요.",
+    "author": "긴급알림봇",
+    "freedomImpact": [
+      -6,
+      -3,
+      -9
+    ],
+    "orderImpact": [
+      12,
+      6,
+      14
+    ],
+    "trustImpact": [
+      8,
+      4,
+      -6
+    ],
+    "diversityImpact": [
+      -4,
+      -2,
+      4
+    ]
+  },
+  {
+    "id": 27,
+    "type": "선동",
+    "title": "변화를 두려워하지 마세요!",
+    "content": "현재 상태에 만족하시나요? 변화를 두려워하지 말고 새로운 길을 열어갑시다!",
+    "author": "변화의파도",
+    "freedomImpact": [
+      -8,
+      -4,
+      -12
+    ],
+    "orderImpact": [
+      14,
+      7,
+      17
+    ],
+    "trustImpact": [
+      10,
+      5,
+      -8
+    ],
+    "diversityImpact": [
+      -5,
+      -2,
+      5
+    ]
+  },
+  {
+    "id": 28,
+    "type": "비판",
+    "title": "현재 제도의 실증적 분석 결과",
+    "content": "데이터를 기반으로 현재 제도를 분석한 결과, 다음과 같은 문제점이 확인되었습니다.",
+    "author": "데이터분석가",
+    "freedomImpact": [
+      6,
+      3,
+      -9
+    ],
+    "orderImpact": [
+      4,
+      2,
+      5
+    ],
+    "trustImpact": [
+      3,
+      2,
+      -2
+    ],
+    "diversityImpact": [
+      4,
+      2,
+      -3
+    ]
+  },
+  {
+    "id": 29,
+    "type": "논쟁",
+    "title": "개인주의 vs 집단주의: 어느 것이 나을까?",
+    "content": "개인의 자유를 중시해야 할까요, 아니면 집단의 조화를 중시해야 할까요? 의견을 나눠봅시다.",
+    "author": "사회학연구자",
+    "freedomImpact": [
+      5,
+      2,
+      -8
+    ],
+    "orderImpact": [
+      -2,
+      -1,
+      2
+    ],
+    "trustImpact": [
+      -1,
+      0,
+      1
+    ],
+    "diversityImpact": [
+      3,
+      2,
+      -2
+    ]
+  },
+  {
+    "id": 30,
+    "type": "유익한글",
+    "title": "이상적인 커뮤니티의 조건",
+    "content": "건강하고 이상적인 커뮤니티를 만들기 위한 여러 조건들을 정리했습니다. 함께 만들어가요.",
+    "author": "커뮤니티학자",
+    "freedomImpact": [
+      9,
+      4,
+      -14
+    ],
+    "orderImpact": [
+      6,
+      3,
+      7
+    ],
+    "trustImpact": [
+      4,
+      2,
+      -3
+    ],
+    "diversityImpact": [
+      5,
+      2,
+      -4
+    ]
+  }
+]

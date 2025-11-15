@@ -1,0 +1,11 @@
+{
+  "day": 1,
+  "freedom": 50,
+  "order": 50,
+  "trust": 50,
+  "diversity": 50,
+  "currentPostIndex": 0,
+  "processedPosts": [],
+  "gameStatus": "playing",
+  "endings": []
+}
